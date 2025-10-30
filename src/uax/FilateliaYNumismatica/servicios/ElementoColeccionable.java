@@ -1,4 +1,6 @@
-package uax.FilateliaYNumismatica.servicios.Impl;
+package uax.FilateliaYNumismatica.servicios;
 
 public interface ElementoColeccionable {
+
+
 }
