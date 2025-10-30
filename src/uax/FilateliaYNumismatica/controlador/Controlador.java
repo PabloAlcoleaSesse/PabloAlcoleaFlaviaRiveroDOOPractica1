@@ -13,17 +13,18 @@ public class Controlador {
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println(
-                    "Bienvenido a tu coleccion personal de sellos y monedas!\n");
-            System.out.println("Seleccione una opcion: \n");
-            System.out.println("• 1-Añadir una nueva moneda \n");
-            System.out.println("• 2-Añadir un nuevo sello \n");
+                    "Bienvenido a tu coleccion personal de sellos y monedas!");
+            System.out.println("Seleccione una opcion: ");
+            System.out.println("• 1-Añadir una nueva moneda ");
+            System.out.println("• 2-Añadir un nuevo sello ");
             System.out.println("• 3-Mostrar todas las monedas" );
-            System.out.println("• 4-Mostar todos los sellos \n");
-            System.out.println("• 5-Mostrar el precio total de la colección \n");
-            System.out.println("• 6-Mostrar la rareza media de la colección \n");
+            System.out.println("• 4-Mostar todos los sellos ");
+            System.out.println("• 5-Mostrar el precio total de la colección ");
+            System.out.println("• 6-Mostrar la rareza media de la colección ");
             System.out.println("• 0-Salir");
 
             int opcion = sc.nextInt();
+            sc.nextLine();
 
 
             switch (opcion) {
