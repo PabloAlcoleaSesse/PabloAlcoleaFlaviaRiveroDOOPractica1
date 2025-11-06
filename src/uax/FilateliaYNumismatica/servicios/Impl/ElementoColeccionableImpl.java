@@ -15,17 +15,13 @@ public abstract class ElementoColeccionableImpl {
         this.pais = pais;
         this.autoridadGobernante = autoridadGobernante;
         this.annus = annus;
+        this.rareza = rareza;
         this.valor = valor;
         this.unidadMonetaria = unidadMonetaria;
-        if (rangoRareza(rareza)) {
-            this.rareza = rareza;
-        } else {
-            throw new IllegalArgumentException("La rareza es invalido");
-        }
         this.precio = precio;
     }
 
-    public boolean rangoRareza(int rareza) {
+    public static boolean rangoRareza(int rareza) {
         if (rareza > 100 || rareza < 0) {
             return false;
         } else {
